@@ -9,7 +9,7 @@ it("should subtract two numbers", () => {
 });
 
 it("should multiply two numbers", () => {
-  expect(multiply(2, 3)).toBe(5);
+  expect(multiply(2, 3)).toBe(6);
 });
 
 it("should divide two numbers", () => {
