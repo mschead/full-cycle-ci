@@ -1,4 +1,4 @@
-name: Node.js CI
+name: full-cycle-ci
 
 on: 
   pull_request:
@@ -7,7 +7,7 @@ on:
       - develop
 
 jobs:
-  build:
+  check-application:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
