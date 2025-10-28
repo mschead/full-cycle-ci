@@ -1,0 +1,22 @@
+{
+  "name": "full-cycle-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mschead/full-cycle-ci.git"
+  },
+  "author": "Marcos Schead",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mschead/full-cycle-ci/issues"
+  },
+  "homepage": "https://github.com/mschead/full-cycle-ci#readme",
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}
