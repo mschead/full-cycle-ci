@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide } = require("./math");
+const { add, subtract, multiply, divide, square, modulo } = require("./math");
 
 it("should add two numbers", () => {
   expect(add(1, 2)).toBe(3);
@@ -14,4 +14,12 @@ it("should multiply two numbers", () => {
 
 it("should divide two numbers", () => {
   expect(divide(1, 2)).toBe(0.5);
+});
+
+it("should square a number", () => {
+  expect(square(2)).toBe(4);
+});
+
+it("should modulo two numbers", () => {
+  expect(modulo(1, 2)).toBe(1);
 });

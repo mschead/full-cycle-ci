@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,13 @@
     "url": "https://github.com/mschead/full-cycle-ci/issues"
   },
   "homepage": "https://github.com/mschead/full-cycle-ci#readme",
+  "jest": {
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ],
+    "coverageDirectory": "coverage"
+  },
   "dependencies": {
     "jest": "^30.2.0"
   }
