@@ -10,8 +10,8 @@ function multiply(a, b) {
   return a * b;
 }
 
-function divide(a, b) {
-  return a / b;
+function divide(a, c) {
+  return a / c;
 }
 
 function square(a) {
